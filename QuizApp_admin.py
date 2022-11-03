@@ -18,14 +18,14 @@ from csv import reader
 class firebase_server:
     def __init__(self):
         self.firebaseConfig = {
-            'apiKey': "AIzaSyAE7WYgMHCiuNECxX8Bx6xmhoMr4BOaaI4",
-            'authDomain': "logindemo-9c06d.firebaseapp.com",
-            'projectId': "logindemo-9c06d",
-            'storageBucket': "logindemo-9c06d.appspot.com",
-            'messagingSenderId': "1042977831527",
-            'appId': "1:1042977831527:web:97e799d486dd3b48fa32c2",
-            'measurementId': "G-LK8RPMX8QP",
-            'databaseURL': "https://logindemo-9c06d-default-rtdb.firebaseio.com/"
+            'apiKey': "",
+            'authDomain': "",
+            'projectId': "",
+            'storageBucket': "",
+            'messagingSenderId': "",
+            'appId': "",
+            'measurementId': "",
+            'databaseURL': ""
         }
         self.firebase = pyrebase.initialize_app(self.firebaseConfig)
         self.db = self.firebase.database()
