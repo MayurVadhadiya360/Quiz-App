@@ -19,5 +19,7 @@ you can view analytics of particular quiz by clicking on that quiz in admin app.
 ![image](https://user-images.githubusercontent.com/75627309/199671697-c437b919-f613-41d7-9a93-d2e61399dc04.png)
 
 
-You can make .exe file of these by using this command :
+You can make `.exe` file of these by using this command :
+```
 pyinstaller -F -w --onefile filename.py --icon=images/quiz_icon.ico
+```
